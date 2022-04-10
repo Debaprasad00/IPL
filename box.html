@@ -1,0 +1,163 @@
+
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <!-- <link rel="stylesheet" href="stylesheet.css"> -->
+        <style> 
+            #leftbox {
+                float:left; 
+                background:#f5bd1f;
+                width:30%;
+                height:500px;
+                margin-top: 20px;
+            }
+            #middlebox{
+                float:left; 
+                background:#f5bd1f;
+                width:45%;
+                height:500px;
+                margin-top: 20px;
+            }
+            #rightbox{
+                float:right;
+                background:#f5bd1f;
+                width:25%;
+                height:500px;
+                margin-top: 20px;
+            }
+          
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+            li {
+                float: left;
+                margin: 5px;
+                padding: 5px;
+            }
+
+            li h2{
+                display: block;
+                color: black;
+                text-align: center;
+                padding: 10px;
+                text-decoration: none;
+                margin: 5px;
+                font-weight: lighter;
+            }
+
+            li p {
+                display: block;
+                color: black;
+                text-align: center;
+                padding: 10px;
+                text-decoration: none;
+                margin: 5px;
+            }
+            nav {
+    width: 100%;
+    height: 70px;
+    display:flex;
+    color: white;
+    padding-left: 30px;
+    align-items: center;
+}
+
+nav .logo {
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    font-style: oblique;
+}
+
+nav .nav-items {
+    display: flex;
+    flex:auto;
+    padding-left: 700px;
+}
+
+nav .nav-items li {
+    list-style: none;
+    padding: 0 10px;
+}
+
+nav .nav-items li a {
+    color: black;
+    font-size: 15px;
+    font-weight: bolder;
+    text-decoration: underline; 
+}
+  
+nav .nav-items li a:hover {
+    color: #fcbe11;
+    
+} 
+
+
+        </style> 
+    </head> 
+      
+    <body> 
+        <nav>
+            <div class="logo">
+            Indian Premier League
+            </div>
+      
+            <div class="nav-items">
+                <li><a href="IPL2.html">Home</a></li><br>
+                <li><a href="#">About</a></li><br>
+                <li><a href="#">Contact</a></li><br>
+            </div>
+    
+        </nav>
+        <div id = "boxes">
+              
+            <div id = "leftbox">
+                <img src="https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2022/1.png" style="width: 390px; height: 390px;margin-top: 50px;">
+            </div> 
+              
+            <div id = "middlebox">
+                <div style="margin-left: 20px; margin-top: 120px;font-size: x-large;">
+                <h1>Mahendra singh Pansingh Dhoni</h1>
+                <h2 style="font-weight: bold;font-size: large; margin-left: 10px;margin-top: 20px;">
+                    <span>Role : </span>Wicketkeeper Batter
+                </h2>
+                <h2 style="font-weight: bold;font-size: large;margin-left: 10px;">
+                    <span>Batting Style : </span> Right-handed
+                </h2>
+                <h2 style="font-weight: bold;font-size: large;margin-left: 10px;">
+                    <span>Bowling Style : </span> Right-arm Medium
+                </h2>
+                <h2 style="font-weight: bold;font-size: large;margin-left: 10px;">
+                    <span>Nationality : </span> Indian 
+                </h2>
+                <h2 style="font-weight: bold;font-size: large;margin-left: 10px;">
+                    <span>DOB :</span> 07 July 1981
+                </h2>
+                <h2 style="font-weight: bold;font-size: large;margin-left: 10px;">
+                    <span>IPL Debut :</span> 2008 
+                </h2>
+                </div>
+            </div>
+              
+            <div id = "rightbox">
+                <ul>
+                    <li>
+                        <h2>223</h2>
+                        <p>Matches</p>
+                    </li>
+                    <li>
+                        <h2>4835</h2>
+                        <p>Runs</p>
+                    </li>
+                    <li>
+                        <h2>0</h2>
+                        <p>wickets</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </body> 
+</html>
